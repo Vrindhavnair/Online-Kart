@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Kart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header style="background-color: #0000ff;width: 100%;height: 56px;justify-content: space-around;">
+        <div style=" display: flex;padding-left: 40px;">
+        <div style="color:white;font-family: Arial, sans-serif;font-size: 14px;margin-left:50px ;margin-top: 25px;"><b>Flipkart </b><br><a style="text-decoration: none;" href="https://www.flipkart.com/plus";><i id="i" style="color: antiquewhite;font-family: Arial, Helvetica, sans-serif;font-size: 11px;">Explore <span style="color: yellow;">Plus</span> </i><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png" width="15px" height="15px" alt=""></a></div>
+        <div style="height: 60px;margin-top: 30px;">
+            <input style="width: 600px; margin-left: 30px;" type="search"  placeholder="Search for products, brands and more"  ><button><i style="text-align: center;" class="fa-solid fa-magnifying-glass"></i></button><button style="height: 27px;width: 100px; border: none;border-radius: 0; width: 70px;margin-left: 10px;color:#0000ff;background-color: rgb(255, 255, 255);">Login</button>
+        </div>
+        <div style="margin-left: 60px;margin-top: 30px;"><a style="text-decoration: none;color: white;padding:  10px;" href="">Become a seller</a></div>
+        <div style="margin-left: 60px;margin-top: 30px;"><a  style="text-decoration: none;color: white;padding: 10px;" href="">More</a></div>
+        <div style="margin-left: 60px;margin-top: 30px;"><a  style="text-decoration: none;color: white;padding: 10px;" href="">Cart</a></div>
+        </div>
+    </header>
+     <!-- <button><a href="#">Back To Top</a></button> -->
+        <div>
+            <a href="" style="display: flex;text-decoration: none;text-align: center;align-items: center;justify-content: space-evenly;">
+                <div style="color: black;"><img src="https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt=""><center>Grocery</center></div>
+            <div style="color: black;"><img src="https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt=""><center>Mobiles</center></div>
+            <div style="color: black;"><img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100" alt=""><center>Fashion</center></div>
+            <div style="color: black;"><img src="https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt=""><center>Electronics</center></div>
+            <div style="color: black;"><img src="https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt=""><center>Home and Furnitures</center></div>
+            <div style="color: black;"><img src="https://rukminim2.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt=""><center>Appliances</center></div>
+            <div style="color: black;"><img src="https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt=""><center>Travel</center></div>
+            <div style="color: black;"><img src="https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt=""><center>Beauty, Toys and More</center></div>
+            <div style="color: black;"><img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100" alt=""><center>Two Wheelers</center></div>
+            </a>
+        </div><br><br>
+
+       
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/5699104/pexels-photo-5699104.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" style="width: 100%;height: 400px;" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/6114606/pexels-photo-6114606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block" style="height: 400px;width: 100%;" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/7319306/pexels-photo-7319306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 400px;width: 100%;" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/5926239/pexels-photo-5926239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 400px;width: 100%;" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/1466723002/photo/happy-smiling-asian-woman-receives-paper-bag-parcel-of-food-from-courier-front-house-delivery.jpg?b=1&s=612x612&w=0&k=20&c=7g_mVSQlY3kHi0v1j8RUMjpYeRQvmrIF56C_miFATjM=" style="height: 400px;width: 100%;" class="d-block w-100" alt="">
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div style="display: flex;margin: 50px;padding: 30px;justify-content: space-evenly;align-items: center;">
+  <div class="div1" style="align-items: center;display: flex;flex-direction: column;"><span style="font-size: 30px;">Best of Electronics</span><br><br> <button style="border: none;border-radius: 0;background-color: #0000ff;color: white;">VIEW ALL</button><br><div><img src="https://www.pngitem.com/pimgs/m/196-1967449_transparent-special-offers-png-special-offer-hd-png.png" width="200px" height="150px" alt=""></div></div>
+  <div style="align-items: center;"><a  href="" style="text-decoration: none;"><img id="a" src="https://rukminim2.flixcart.com/flap/200/200/image/20c224cd52ae7a87.jpg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Best Of Trimmers</span> <br><span style="color: green;">From $399</span> <br><span style="color: #837a7a;">Philips, Mi & More</span></p></a></div>
+  <div style="align-items: center;"><a  href="" style="text-decoration: none;"><img id="b" src="https://rukminim2.flixcart.com/image/200/200/xif0q/smartwatch/o/l/i/-original-imagpsqjgdfzcez7.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Fire-Boltt Smart Watches</span> <br><span style="color: green;">From $1,099</span> <br><span style="color: #837a7a;">Best Deals For Limited Period</span></p></a></div>
+  <div style="align-items: center;"><a  href="" style="text-decoration: none;"><img id="c" src="https://rukminim2.flixcart.com/image/200/200/xif0q/headphone/0/v/m/nord-buds-2-oneplus-original-imagnwf7sgjetqwg.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">TreuWireless Earphones</span> <br><span style="color: green;">From $499</span> <br><span style="color: #837a7a;">Apple,Boat,OnePlus & More</span></p></a></div>
+  <div style="align-items: center;"><a  href="" style="text-decoration: none;"><img id="d" style="margin-top: 48px;" src="https://rukminim2.flixcart.com/image/200/200/xif0q/computer/s/g/x/titan-gt77-hx-13vi-092in-gaming-laptop-msi-original-imagz6bbegpvmr2k.jpeg?q=70" alt="" height="150px"><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">MSI Laptops</span> <br><span style="color: green;">From $34,990</span> <br><span style="color: #837a7a;">Personalize Your Laptop Now</span></p></a></div>
+</div>
+<hr>
+
+<div style="display: flex;margin: 50px;padding: 30px;justify-content: space-evenly;align-items: center;">
+  <div class="div2" style="align-items: center;display: flex;flex-direction: column;"><span style="font-size: 30px;">Top Deals On Fashion</span><br><br> <button style="border: none;border-radius: 0;background-color: #0000ff;color: white;">VIEW ALL</button><br><div><img src="https://www.pngmart.com/files/9/Special-offer-Label-PNG-Photos.png" width="150px" height="100px" alt=""></div></div>
+  <div style="align-items: center;"><a href="" style="text-decoration: none;"><img id="a" src="https://rukminim2.flixcart.com/image/200/200/xif0q/shoe/f/s/s/-original-imagkhvzgsgpn5wt.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Reebok,Hrx & more</span> <br><span style="color: green;">Min 60% off</span> <br><span style="color: #837a7a;">Men's Shoes & Sneakers</span></p></a></div>
+  <div style="align-items: center;"><a href="" style="text-decoration: none;"><img id="a" src="https://rukminim2.flixcart.com/fk-p-flap/200/200/image/324eee4e5f645574.jpg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Sparx, Bata & more</span> <br><span style="color: green;">From $149</span> <br><span style="color: #837a7a;">Trending Now!</span></p></a></div>
+  <div style="align-items: center;"><a href="" style="text-decoration: none;"><img id="b" src="https://rukminim2.flixcart.com/image/200/200/jp2xoy80/watch/c/j/8/38042pp04-fastrack-original-imafbet3f2y54u6s.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Fastrack,Timex,Sonata</span> <br><span style="color: green;">From $499</span> <br><span style="color: #837a7a;">Rush To Grab The best Offer!</span></p></a></div>
+  <div style="align-items: center;"><a href="" style="text-decoration: none;"><img id="a" src="https://rukminim2.flixcart.com/image/200/200/xif0q/shoe/v/0/r/-original-imaghkpafckuyshd.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Nike,New Balance & more</span> <br><span style="color: green;">Min 50% off</span> <br><span style="color: #837a7a;">Men's Shoes & Sneakers</span></p></a></div>
+</div>
+<hr>
+
+
+
+<div style="display: flex;justify-content: space-evenly;align-items: center;">
+  <div class="div3" style="display: flex;flex-direction: column;"><span style="font-size: 30px;">Offers On Furnitures</span><br><br><button style="border: none;border-radius: 0;background-color: #0000ff;color: white;">VIEW ALL</button><br><div><img src="https://img.pikbest.com/png-images/hot-sale-fire-burn-special-offer-banner-template-vector-labels-designs-concept_1753912.png!bw700" width="150px" height="100px" alt=""></div></div>
+  <div style="align-items: center;"><a href="" style="text-decoration: none;"><img id="a" src="https://rukminim2.flixcart.com/image/200/200/kd4uj680/coffee-table/z/x/5/rosewood-sheesham-mc-jk42-mooncraft-honey-finish-original-imafu3cww7m2nrcb.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Coffee Tables</span> <br><span style="color: green;">From $2,149</span> <br><span style="color: #837a7a;">Wooden & Glass</span></p></a></div>
+  <div style="align-items: center;"><a href="" style="text-decoration: none;"><img id="b" src="https://rukminim2.flixcart.com/image/200/200/kql8sy80/hammock-swing/k/d/z/swing-black-orange-without-stand-furniture-kart-original-imag4kjwqwznyazh.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Swings</span> <br><span style="color: green;">Under $325</span> <br><span style="color: #837a7a;">Metal & More</span></p></a></div>
+  <div style="align-items: center;"><a href="" style="text-decoration: none;"><img id="a" src="https://rukminim2.flixcart.com/image/200/200/jxtakcw0/shoe-rack/r/d/j/smart-buy-homecare-collapsible-stand-maroon-cmerchants-original-imafg7272recmpwq.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Shoe Rack</span> <br><span style="color: green;">From $299</span> <br><span style="color: #837a7a;">Fabric,Metal..</span></p></a></div>
+  <div style="align-items: center;"><a href="" style="text-decoration: none;"><img id="a" src="https://rukminim2.flixcart.com/image/200/200/kb9ou4w0/bed/p/h/y/queen-na-particle-board-za0017we-barewether-wenge-with-walnut-original-imafsnnmhtzgpzsu.jpeg?q=70" alt=""><p style="align-items: center;justify-content: center;text-align: center;"><span style="color: black;">Bed,Sofa,Wardrobe,OfficeChair..</span> <br><span style="color: green;">From $2,090</span> <br><span style="color: #837a7a;">Clearance Sale</span></p></a></div>
+</div>
+<hr>
+
+
+
+<footer style="background-color: #212b3f;">
+  <div style="display: flex;margin: 90px;font-size: 12px;">
+  <div style="padding: 60px;">
+    <div style="color: #837a7a;font-size: 12px;">ABOUT</div><br>
+    <div><a style="text-decoration: none;color: white;" href="">Contact Us</a><br>
+    <a style="text-decoration: none;color: white;" href="">About Us</a><br>
+    <a style="text-decoration: none;color: white;" href="">Careers</a><br>
+    <a style="text-decoration: none;color: white;" href="">Flipkart stories</a><br>
+    <a style="text-decoration: none;color: white;" href="">Press</a><br>
+    <a style="text-decoration: none;color: white;" href="">Flipkart Wholesale</a><br>
+    <a style="text-decoration: none;color: white;" href="">Corporate Information</a><br>
+    </div>
+  </div>
+  
+    <div style="padding: 60px;font-size: 12px;display: flex;flex-direction: column;">
+      <div style="color: #837a7a;font-size: 12px;">HELP</div><br>
+      <div><a style="text-decoration: none;color: white" href="">Help</a><br>
+      <a style="text-decoration: none;color: white;" href="">Payments</a><br>
+      <a style="text-decoration: none;color: white;" href="">Shipping</a><br>
+      <a style="text-decoration: none;color: white;" href="">Cancellation & Returns</a><br>
+      <a style="text-decoration: none;color: white;" href="">FAQ</a><br>
+      <a style="text-decoration: none;color: white;" href="">Report Infringement</a>
+      </div>
+    </div>
+  
+    <div style="padding: 60px;font-size: 12px;width: 1100px;">
+      <div style="color: #837a7a;font-size: 12px;">CONSUMER POLICY</div><br>
+      <div><a style="text-decoration: none;color: white;" href=""><span>Cancellation & Returns</span></a><br>
+      <a style="text-decoration: none;color: white;" href="">Terms of Use</a><br>
+      <a style="text-decoration: none;color: white;" href="">Security</a><br>
+      <a style="text-decoration: none;color: white;" href="">Privacy</a><br>
+      <a style="text-decoration: none;color: white;" href="">Sitemap</a><br>
+      <a style="text-decoration: none;color: white;" href="">Grievance Redressal</a><br>
+      <a style="text-decoration: none;color: white;" href="">EPR Compliance</a><br>
+      </div>
+    </div>
+
+  <div style="padding: 60px;font-size: 12px;width: auto;">
+      <div style="color: #837a7a;font-size: 12px;">SOCIAL</div><br>
+      <div><a style="text-decoration: none;color: white;" href="">Facebook</a>
+      <a style="text-decoration: none;color: white;" href="">Twitter</a>
+      <a style="text-decoration: none;color: white;" href="">Youtube</a>
+      </div>
+  </div>
+
+  <div style="padding: 60px;font-size: 12px;width: 283px;height: 136px;">
+    <div style="color: #837a7a;font-size: 12px;">Mail Us:</div><br>
+    <div><p style="color: white;">Flipkart Internet Private Limited,
+
+      Buildings Alyssa, Begonia &
+      
+      Clove Embassy Tech Village,
+      
+      Outer Ring Road, Devarabeesanahalli Village,
+      
+      Bengaluru, 560103,
+      
+      Karnataka, India</p></div>
+  </div>
+
+  <div style="padding: 60px;font-size: 12px;">
+    <div style="color: #837a7a;font-size: 12px;">Registered Office Address:</div><br>
+    <div><p style="color: white;">Flipkart Internet Private Limited,
+
+      Buildings Alyssa, Begonia &
+      
+      Clove Embassy Tech Village,
+      
+      Outer Ring Road, Devarabeesanahalli Village,
+      
+      Bengaluru, 560103,
+      
+      Karnataka, India
+      
+      CIN : U51109KA2012PTC066107
+      
+      Telephone: 044-45614700</p></div>
+  </div>
+</div>
+<hr style="color: white;">
+
+
+  <div style="padding: 30px;display: flex;width: 100%;">
+    <div style="padding-left: 30px;width: 400px;font-size: 14px;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K" alt=""><span style="color: white;padding-left: 5px;">Become a Seller</span></div>
+    <div style="padding-left: 30px;width: 300px;font-size: 14px"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=" alt=""><span style="color: white;padding-left: 5px;">Advertise</span></div>
+    <div style="padding-left: 30PX;width: 300px;font-size: 14px;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg==" alt=""><span style="color: white;padding-left: 5px;">Gift Cards</span></div>
+    <div style="padding-left: 30px;width: 250px;font-size: 14px"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=" alt=""><span style="color: white;padding-left: 5px;">Help Center</span></div>
+    <div style="padding-left: 30px;width: 450px;font-size: 14px;color: white;">© 2007-2023 Flipkart.com</div>
+    <div style="padding-left: 150px;">
+    <div><img style="padding-right: 5px;" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg" alt=""></div>
+    </div>
+  </div>
+</footer>
+        
+        <!-- <table>
+            <tr>
+                <center>
+                <td style="color:white;font-family: Arial, sans-serif;font-size: 14px;"><b>Flipkart </b><br><a href="https://www.flipkart.com/plus";><i style="color: antiquewhite;font-family: Arial, Helvetica, sans-serif;font-size: 11px;">Explore <span style="color: yellow;">Plus</span> </i><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png" width="15px" height="15px" alt=""></a></td>
+                <td><input type="search">
+                    <select name="" id="">
+                    <option value="Select">Search for products,brands and more</option>
+                    <option value="Mobiles & Tablets">Mobiles & Tablets</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="TVs & Appliances">TVs & Appliances</option>
+                    <option value="Fashion">Fashion</option>
+                    </select>
+                    <button>Login</button>
+                </td>
+                <td><a href="">Become a seller</a></td>
+                <td><a href="">More</a></td> 
+                <td><a href="">Cart</a></td>  
+                </center>
+        </table>
+        <hr>
+        <div>
+            <a href=""><img src="./images/1 "alt=""; title="egf"></a>
+        </div> -->
+        
+        
+    
+    
+</body>
+</html>

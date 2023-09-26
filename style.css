@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+}
+
+.div1{
+    width: 250px;
+    height: 100px;
+    align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.div2{
+    width: 250px;
+    height: 100px;
+    align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.div3{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 250px;
+   height: 400px;
+}
+#i:hover{
+    text-decoration: underline;
+}
+#a:hover{
+    width: 250px;
+    height: 270px;
+    
+}
+#b:hover{
+    width: 180px;
+    height: 250px;
+    
+}
+#c:hover{
+    width: 200px;
+    height: 250px;
+    
+}
+#d:hover{
+    width: 250px;
+    height: 200px;
+    
+}
